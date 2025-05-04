@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(218, 218, 218);
+    color: #fff;
+    text-align: center;
+  }
+  
+  header, sidebar, main, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+  }
+  
+  header {
+    background: #fbca07;
+  }
+  
+  .nav {
+    background: rgb(45, 12, 232);
+    
+    /* Flex */
+    flex-basis: 200px;
+  }
+  .content {
+    background: #129a22;
+    flex-grow: 1;
+    
+  }  
+  
+  footer {
+    border: 1px solid #000000;
+    background: #a00101;
+  }
+  
+  /* Flex */
+  .flex-container {
+    display: flex;
+    height: 400px;
+    
+  }
